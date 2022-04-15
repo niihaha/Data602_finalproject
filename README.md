@@ -64,9 +64,10 @@ The report analysis depicts that :
 - Latitute and logitude columns are of type float.
 - All the income units and units attributes are of type int.
 - Dropping the unncecesary columns :
-  -'Project Name','Project Start Date','Project Completion Date' as they have multiple NULL values.
-  -'Building ID','Number','Street','Postcode' as we extracted the main information from them.
-  - 'BBL','BIN','Community Board','Latitude (Internal)','Longitude (Internal)','Council District' because they depict the existing information in the        dataset.
+
+   -'Project Name','Project Start Date','Project Completion Date' as they have multiple NULL values.
+   -'Building ID','Number','Street','Postcode' as we extracted the main information from them.
+   - 'BBL','BIN','Community Board','Latitude (Internal)','Longitude (Internal)','Council District' because they depict the existing information in the        dataset.
 
 ### EDA
 #### Observations :
