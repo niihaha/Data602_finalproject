@@ -47,3 +47,16 @@ Counted Rental Units are the units in the building, counted toward the Housing N
 - Counted Homeownership Units : Counted Homeownership Units are the units in the building, counted toward the Housing New York Plan, where assistance has been provided directly to homeowners.
 - All Counted Units : The Counted Units field indicates the total number of affordable units, counted towards the Housing New York plan, that are in the building.
 - Total Units : The Total Units field indicates the total number of units, affordable and market rate, in each building.
+
+### Exploratory Data Analysis
+The report analysis depicts that :
+- The dataframe has 5631 rows and each row represents a housing project.
+- The dataframe has 41 features(columns).
+- info() method hepls in knowing the quick description about the dataframe.
+
+### Data Cleaning and Feature Engineering
+- Census Tract and NTA has only 4502 entries, Latitude and Longitude has 4496 whereas Building Completion Date has only 4061 entries which means the remaining values are missing in these columns.
+- Census Tract,NTA - Neighborhood Tabulation Area,Building Completion Date ,Reporting Construction Type,Extended Affordability Only ,Prevailing Wage Status attributes are of object Data type and the values in this attribute is repetitive which means that it is probably categorical attribute. 
+- The value counts method can be used to find the categories(below).
+- Latitute and logitude columns are of type float.
+- All the income units and units attributes are of type int.
