@@ -55,8 +55,19 @@ The report analysis depicts that :
 - info() method hepls in knowing the quick description about the dataframe.
 
 ### Data Cleaning and Feature Engineering
+
+#### Observations :
+
 - Census Tract and NTA has only 4502 entries, Latitude and Longitude has 4496 whereas Building Completion Date has only 4061 entries which means the remaining values are missing in these columns.
 - Census Tract,NTA - Neighborhood Tabulation Area,Building Completion Date ,Reporting Construction Type,Extended Affordability Only ,Prevailing Wage Status attributes are of object Data type and the values in this attribute is repetitive which means that it is probably categorical attribute. 
 - The value counts method can be used to find the categories(below).
 - Latitute and logitude columns are of type float.
 - All the income units and units attributes are of type int.
+- Dropping the unncecesary columns :
+  -'Project Name','Project Start Date','Project Completion Date' as they have multiple NULL values.
+  -'Building ID','Number','Street','Postcode' as we extracted the main information from them.
+  - 'BBL','BIN','Community Board','Latitude (Internal)','Longitude (Internal)','Council District' because they depict the existing information in the        dataset.
+
+### EDA
+#### Observations :
+
