@@ -59,7 +59,7 @@ Counted Rental Units are the units in the building, counted toward the Housing N
 The report analysis depicts that :
 - The dataframe has 5631 rows and each row represents a housing project.
 - The dataframe has 41 features(columns).
-- info() method hepls in knowing the quick description about the dataframe.
+- info() method hepls in knowing the quick description about the datafre.
 
 ### Data Cleaning and Feature Engineering :
 
