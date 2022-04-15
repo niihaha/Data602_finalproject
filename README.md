@@ -65,8 +65,8 @@ The report analysis depicts that :
 - All the income units and units attributes are of type int.
 - Dropping the unncecesary columns :
 
-   -'Project Name','Project Start Date','Project Completion Date' as they have multiple NULL values.
-   -'Building ID','Number','Street','Postcode' as we extracted the main information from them.
+   - 'Project Name','Project Start Date','Project Completion Date' as they have multiple NULL values.
+   - 'Building ID','Number','Street','Postcode' as we extracted the main information from them.
    - 'BBL','BIN','Community Board','Latitude (Internal)','Longitude (Internal)','Council District' because they depict the existing information in the        dataset.
 
 ### EDA
