@@ -1,12 +1,18 @@
 # Data602_finalproject
+
 ### Data Source :
 https://data.cityofnewyork.us/Housing-Development/Housing-New-York-Units-by-Building/hg8x-zxpr
 
 ### Project Description :
+
 This dataset represents Newyork housing datasets where each row indicates a project and its status based on the number of bed rooms(1-BR, 2-BR, 3_BR,...,6BR+ units) and location.
+
 ### Project Proposal :
+
 Based on the multiple features like number of bed rooms, income levels, latitude, longitude, project completion date etc. predicting the total units that will be produced.
+
 ### Feature description :
+
 - Project ID :The Project ID is a unique numeric identifier assigned to each project by HPD.
 - Project Name : The Project Name is the name assigned to the project by HPD.
 - Project Start Date : The Project Start Date is the date of the project loan or agreement closing.
@@ -48,13 +54,15 @@ Counted Rental Units are the units in the building, counted toward the Housing N
 - All Counted Units : The Counted Units field indicates the total number of affordable units, counted towards the Housing New York plan, that are in the building.
 - Total Units : The Total Units field indicates the total number of units, affordable and market rate, in each building.
 
-### Exploratory Data Analysis
+### Exploratory Data Analysis :
+
 The report analysis depicts that :
 - The dataframe has 5631 rows and each row represents a housing project.
 - The dataframe has 41 features(columns).
 - info() method hepls in knowing the quick description about the dataframe.
 
-### Data Cleaning and Feature Engineering
+### Data Cleaning and Feature Engineering :
+
 
 #### Observations :
 
@@ -71,4 +79,25 @@ The report analysis depicts that :
 
 ### EDA
 #### Observations :
+
+- Most the units are located in between -70.05 to -73.9 longitude and 40.65 to 40.90 latitiude.
+- The Borough is the borough where the building is located.
+- The above Geographical Distribution represents the count of building units at a particular location.
+- By observing the Histogram more closely, the values of Low Income Units are clustered around 0 and 50 but some Low Income Units goes beyond 50. I will     create an income category attribute with 5 categories which are labeled from 60 to 300.
+- The report generated shows thr Extended Affordability Only field indicates whether the project is considered to be Extended Affordability.
+- An extended affordability project involves no construction, but secures an extended or new regulatory agreement. 
+- All extended affordability projects have a ‘reporting construction type’ of ‘preservation(yes /no). 
+- The graph depicts that most of the houses are under non-prevailing wage.
+- It is far beyong the requirements and it is not meeting the required criteria.
+- From the observations most of the construction type is preservation.
+- There is no large marginal difference between the two categories.
+- Other Units are units reserved for building superintendents.
+- The reserved units are around 900.
+- 5-BR unit distribution that is being included is very less
+- 6-BR+ unit distribution that is being included is far less than 5-BR
+
+### Conclusion :
+
+The bedroom units are clearly liked to the project income units. So estimating the total units that can be efficiently produced using these features will be my next step od the project.
+
 
