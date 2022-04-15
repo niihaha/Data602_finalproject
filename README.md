@@ -83,7 +83,11 @@ The report analysis depicts that :
 - Most the units are located in between -70.05 to -73.9 longitude and 40.65 to 40.90 latitiude.
 - The Borough is the borough where the building is located.
 - The above Geographical Distribution represents the count of building units at a particular location.
+- The units are highly distributed between -74.0 to -73.9 Longitute and 40.6 to 40.87
 - By observing the Histogram more closely, the values of Low Income Units are clustered around 0 and 50 but some Low Income Units goes beyond 50. I will     create an income category attribute with 5 categories which are labeled from 60 to 300.
+- It is observed that 5 and 6BR+ units have negative correlation when compared with Moderate Income Units.
+- It is because moderate units include less than 5-BR.
+- It moslty include 2-4BR units.
 - The report generated shows thr Extended Affordability Only field indicates whether the project is considered to be Extended Affordability.
 - An extended affordability project involves no construction, but secures an extended or new regulatory agreement. 
 - All extended affordability projects have a ‘reporting construction type’ of ‘preservation(yes /no). 
